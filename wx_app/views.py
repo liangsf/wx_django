@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 def index(request):
     dt = {}
-    dt['name'] = 'no 1'
+    dt['name'] = 'no 1 1'
     return render(request, 'index.html', dt)
